@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.yinnan.interactivestory.Models.Page;
 import com.example.yinnan.interactivestory.Models.Story;
@@ -15,7 +14,6 @@ import com.example.yinnan.interactivestory.R;
 
 public class StoryActivity extends AppCompatActivity {
 
-    public static final String TAG = StoryActivity.class.getSimpleName();
     private TextView mStoryTextView;
     private ImageView mStoryImageView;
     private Button mChoice1Button, mChoice2Button;
