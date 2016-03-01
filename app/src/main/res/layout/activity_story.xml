@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UI.StoryActivity"
-    android:background="@android:color/white">
+    android:background="@android:color/white"
+    android:transitionGroup="true">
 
     <ImageView
         android:layout_width="match_parent"
@@ -32,23 +33,17 @@
         android:background="@android:color/white"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/ButtonColor"
         android:text="Back Home"
         android:id="@+id/choice1Button"
         android:layout_above="@+id/choice2Button"
-        android:padding="5dp"
-        android:background="@android:color/white"
-        android:textColor="#3a8aec"/>
+        android:padding="5dp"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/ButtonColor"
         android:text="New Button"
         android:id="@+id/choice2Button"
         android:layout_alignParentBottom="true"
-        android:padding="5dp"
-        android:background="@android:color/white"
-        android:textColor="#3a8aec"/>
+        android:padding="5dp"/>
 
 </RelativeLayout>

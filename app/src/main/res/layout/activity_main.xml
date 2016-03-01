@@ -20,15 +20,12 @@
         android:contentDescription="Signals from Mars!"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/ButtonColor"
         android:text="Start your adventure!"
         android:id="@+id/startButton"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:background="@android:color/white"
-        android:textColor="#3a8aec"/>
+        android:layout_alignParentStart="true"/>
 
     <EditText
         android:layout_width="match_parent"
