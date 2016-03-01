@@ -1,9 +1,6 @@
 package com.example.yinnan.interactivestory.Models;
 import com.example.yinnan.interactivestory.R;
 
-/**
- * Created by Yinnan on 2/29/2016.
- */
 public class Story {
     private Page[] mPages;
 

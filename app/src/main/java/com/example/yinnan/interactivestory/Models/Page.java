@@ -1,8 +1,5 @@
 package com.example.yinnan.interactivestory.Models;
 
-/**
- * Created by Yinnan on 2/29/2016.
- */
 public class Page {
     private int mImageId;
     private String mText;
